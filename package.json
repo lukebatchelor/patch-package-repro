@@ -1,0 +1,12 @@
+{
+  "name": "patch-package-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "npx patch-package"
+  },
+  "dependencies": {
+    "get-unicorn": "^1.0.0"
+  }
+}

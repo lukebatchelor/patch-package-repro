@@ -1,0 +1,13 @@
+diff --git a/node_modules/get-unicorn/dist/index.js b/node_modules/get-unicorn/dist/index.js
+index 7b1a23d..90eb000 100644
+--- a/node_modules/get-unicorn/dist/index.js
++++ b/node_modules/get-unicorn/dist/index.js
+@@ -18,5 +18,6 @@ function medium() {
+ function large() {
+   return '\n                                                    /   \n                                                  .7    \n                                       \\       , //    \n                                       |\\.--._/|//     \n                                      /\\ ) ) ).\'/      \n                                     /(  \\  // /       \n                                    /(   J`((_/ \\     \n                                   / ) | _\\     /      \n                                  /|)  \\  eJ    L      \n                                 |  \\ L \\   L   L     \n                                /  \\  J  `. J   L     \n                                |  )   L   \\/   \\     \n                               /  \\    J   (\\   /     \n             _....___         |  \\      \\   \\```  \n      ,.._.-\'        \'\'\'--...-||\\     -. \\   \\       \n    .\'.=.\'                    `         `.\\ [ Y      \n   /   /                                  \\]  J        \n  Y / Y                                    Y   L        \n  | | |          \\                         |   L       \n  | | |           Y                        A  J         \n  |   I           |                       /I\\ /        \n  |    \\          I             \\        ( |]/|       \n  J     \\         /._           /        -tI/ |        \n   L     )       /   /\'-------\'J           `\'-:.       \n   J   .\'      ,\'  ,\' ,     \\   `\'-.__          \\    \n    \\ T      ,\'  ,\'   )\\    /|        \';\'---7   /     \n     \\|    ,\'L  Y...-\' / _.\' /         \\   /   /      \n      J   Y  |  J    .\'-\'   /         ,--.(   /         \n       L  |  J   L -\'     .\'         /  |    /\\        \n       |  J.  L  J     .-;.-/       |    \\ .\' /        \n       J   L`-J   L____,.-\'`        |  _.-\'   |       \n        L  J   L  J                  ``  J    |       \n        J   L  |   L                     J    |         \n         L  J  L    \\                    L    \\       \n         |   L  ) _.\'\\                    ) _.\'\\      \n         L    \\(\'`    \\                  (\'`    \\  \n          ) _.\'\\`-....\'                   `-....\'    \n         (\'`    \\                                     \n          `-.___/   sk                                 \n  ';
+ }
+-
++// comment before
+ exports.default = { emoji: emoji, small: small, medium: medium, large: large };
++// comment after
+\ No newline at end of file
